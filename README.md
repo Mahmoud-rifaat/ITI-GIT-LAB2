@@ -1,3 +1,4 @@
+![GitBranchingNamingConvention_878х700-870x600](https://github.com/Mahmoud-rifaat/ITI-GIT-LAB2/assets/29331934/15c4cab6-5a42-4b8d-8f74-5de5a16f4a92)
 # Steps & Answers:
 
 ```
