@@ -22,7 +22,7 @@ git push origin test
 git chekout dev
 ```
 
---created a "dev.js" file on the dev branch.
+created a "dev.js" file on the dev branch.
 
 ```
 git add .
@@ -53,13 +53,17 @@ git push origin main
 ## Tell me how to remove them locally and remotely?
 
 locally: git branch -d branch_name
+
 remotely: git push origin :branch_name
 
 ## Tell me how to checkout another branch without commiting changes?
 
 1- In the branch with uncommited changes run: git stash save "Some comment about the changes"
+
 2- switch to the desired branch and do some stuff
+
 3- switch back to the original branch nad use: git stash list
+
 4- apply the stash by using: git stash apply
 
 ```
@@ -74,6 +78,7 @@ using: git tag
 ## Tell me how to delete tag locally and remotely?
 
 locally: git tag -d tag_name
+
 remotely: git push origin --delete tag_name
 
 created a README.md file locally
